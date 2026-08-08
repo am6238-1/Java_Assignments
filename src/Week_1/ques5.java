@@ -1,6 +1,6 @@
 package Week_1;
 import java.util.*;
-public class ques5 {
+ class ques5 {
     static void classifyWordLengths(String review) {
 
         String[] words = review.split(" ");

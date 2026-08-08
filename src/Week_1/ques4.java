@@ -1,6 +1,6 @@
 package Week_1;
 
-public class ques4 {
+ class ques4 {
         static void analyzeInventory(int[] sectionA, int[] sectionB) {
 
             int high = sectionA[0];

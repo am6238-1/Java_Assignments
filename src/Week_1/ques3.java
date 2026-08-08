@@ -1,6 +1,6 @@
 package Week_1;
 import java.util.*;
-public class ques3 {
+ class ques3 {
     static void findLongestStreak(String signalLog) {
         int count = 1;
         int longestStreak = 1;

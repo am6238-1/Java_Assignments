@@ -11,7 +11,7 @@ public class ques1 {
 
             }
         }
-        if(!found){
+        if(found==false){
             System.out.println("No  Duplicate Seats Found");
         }
 

@@ -9,7 +9,7 @@ import java.util.*;
         int mCount = 0;
         int lCount = 0;
 
-        for (int i = 0; i < words.length; i++) {
+        for(int i = 0; i < words.length; i++) {
 
             int length = words[i].length();
 
@@ -29,7 +29,7 @@ import java.util.*;
         System.out.println("Long: "+lCount);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] arg) {
 
         Scanner sc = new Scanner(System.in);
 

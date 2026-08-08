@@ -27,7 +27,7 @@ package Week_1;
                 }
             }
 
-
+    String status;
 
             if (totA == totB) {
                 status = "Balanced";

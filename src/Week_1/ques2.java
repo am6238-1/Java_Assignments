@@ -28,7 +28,7 @@ public class ques2 {
 
 
 
-        public static void main (String[] args){
+        static void main(){
             Scanner sc = new Scanner(System.in);
             String original = "hello world";
             String typed = sc.nextLine();

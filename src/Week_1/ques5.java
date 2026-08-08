@@ -9,17 +9,15 @@ import java.util.*;
         int mCount = 0;
         int lCount = 0;
 
-        for(int i = 0; i < words.length; i++) {
+        for (String word : words) {
 
-            int length = words[i].length();
+            int length = word.length();
 
             if (length >= 1 && length <= 4) {
                 sCount++;
-            }
-            else if (length >= 5 && length <= 8) {
+            } else if (length >= 5 && length <= 8) {
                 mCount++;
-            }
-            else {
+            } else {
                 lCount++;
             }
         }
@@ -29,7 +27,7 @@ import java.util.*;
         System.out.println("Long: "+lCount);
     }
 
-    public static void main(String[] arg) {
+    static void main() {
 
         Scanner sc = new Scanner(System.in);
 

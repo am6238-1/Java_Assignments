@@ -11,12 +11,12 @@ public class ques1 {
 
             }
         }
-        if(found==false){
+        if(!found){
             System.out.println("No  Duplicate Seats Found");
         }
 
     }
-public static void main(String[] args){
+ static void main( ){
         int[] seatNumbers = {101, 102, 103, 102, 105};
     checkDuplicateSeats(seatNumbers);
 

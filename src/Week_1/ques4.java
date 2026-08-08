@@ -27,21 +27,13 @@ package Week_1;
                 }
             }
 
-    String status;
-
-            if (totA == totB) {
-                status = "Balanced";
-            } else {
-                status = "Not Balanced";
-            }
-
             System.out.println("Section A Total: "+totA);
             System.out.println("Section A Total: "+totB);
                    System.out.print("Highest Quantity: " + high
                     + " (" + section + ", Item " + (index + 1) + ")");
         }
 
-        public static void main(String[] args) {
+        static void main() {
 
             int[] sectionA = {20, 15, 30};
             int[] sectionB = {25, 10, 30};

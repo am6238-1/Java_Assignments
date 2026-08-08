@@ -27,7 +27,7 @@ import java.util.*;
 
 
 
-public static void main(String[] arg){
+ static void main(){
         Scanner sc=new Scanner(System.in);
         String signalLog=sc.nextLine();
     findLongestStreak(signalLog);
